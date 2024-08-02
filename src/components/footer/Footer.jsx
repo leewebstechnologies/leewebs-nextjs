@@ -1,4 +1,9 @@
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <div>
+      <div>&copy;2024 Leewebs Technologies. All rights reserved.</div>
+      <div></div>
+    </div>
+  );
 };
 export default Footer;
