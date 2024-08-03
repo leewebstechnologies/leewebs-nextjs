@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import styles from "./navbar.module.css";
+import Image from "next/image";
+import logo from "../../images/logo.png";
 
 const links = [
   {
@@ -39,7 +41,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        Leewebs
+        <Image className={styles.logo} src={logo} alt="logo" />
       </Link>
       <div className={styles.links}>
         {links.map((link) => (
