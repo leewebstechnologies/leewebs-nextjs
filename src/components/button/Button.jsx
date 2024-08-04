@@ -1,6 +1,13 @@
-const Button = () => {
+import Link from "next/link";
+import styles from "./button.module.css";
+
+const Button = ({ text, url }) => {
   return (
-    <div>Button</div>
-  )
-}
-export default Button
+    <>
+      <Link href={url}>
+        <button className={styles.container}>{text}</button>
+      </Link>
+    </>
+  );
+};
+export default Button;

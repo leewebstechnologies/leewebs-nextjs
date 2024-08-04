@@ -32,16 +32,6 @@
   font-weight: 300;
 }
 
-.button {
-  padding: 20px;
-  cursor: pointer;
-  background-color: #3044cf;
-  border: none;
-  border-radius: 5px;
-  width: max-content;
-  color: #fff;
-}
-
 .skills {
   margin-top: 50px;
   padding: 0 60px;
@@ -71,9 +61,6 @@
   padding: 5px;
 }
 
-.image:hover {
-  box-shadow: 0 0 2px green;
-}
 
 .skill p {
   font-weight: 500;

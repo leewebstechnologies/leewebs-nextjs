@@ -1,13 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import leewebs from "../images/leewebs.png";
-// import hero from "../images/hero.png";
 import html from "../images/html.png";
 import css from "../images/css.png";
 import javascript from "../images/javascript.png";
 import bootstrap from "../images/bootstrap.png";
 import react from "../images/react.png";
 import sass from "../images/sass.png";
+import Button from "@component/components/button/Button";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
             Turning your idea into reality. We bring together the teams from the
             global tech industry.
           </p>
-          <button className={styles.button}>See our works</button>
+          <Button url="/portfolio" text="See Our Works" />
         </div>
         <div className={styles.item}>
           <Image src={leewebs} alt="leewebs" className={styles.img} />

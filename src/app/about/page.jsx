@@ -1,12 +1,18 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import about from "../../images/about.jpg";
+import programmers from "../../images/programmers.jpg";
+import Button from "@component/components/button/Button";
 
 const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src={about} alt="about" className={styles.img} />
+        <Image
+          src={programmers}
+          fill={true}
+          alt="programmers"
+          className={styles.img}
+        />
         <div className={styles.imgText}>
           <h1 className={styles.imgTitle}>Digital storytellers</h1>
           <h2 className={styles.imgDescription}>
@@ -37,6 +43,23 @@ const About = () => {
         </div>
         <div className={styles.item}>
           <h1 className={styles.title}>What we do?</h1>
+          <p className={styles.description}>
+            We create stunning, responsive and dynamic websites to help improve
+            your online presence.
+            <br />
+            <br /> - Single Page Applications (SPAs)
+            <br />
+            <br /> - Dynamic Websites
+            <br />
+            <br /> - Fast and Modular Web Apps
+            <br />
+            <br /> - Graphic Design
+            <br />
+            <br /> - Product Design (UI/UX)
+            <br />
+            <br /> - Arabic & Islamic Education
+          </p>
+          <Button url="/contact" text="Contact" />
         </div>
       </div>
     </div>
