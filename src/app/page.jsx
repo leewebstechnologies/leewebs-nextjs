@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import hero from "../images/hero.png";
+import leewebs from "../images/leewebs.png";
+// import hero from "../images/hero.png";
 import html from "../images/html.png";
 import css from "../images/css.png";
 import javascript from "../images/javascript.png";
@@ -23,7 +24,7 @@ export default function Home() {
           <button className={styles.button}>See our works</button>
         </div>
         <div className={styles.item}>
-          <Image src={hero} alt="hero" className={styles.img} />
+          <Image src={leewebs} alt="leewebs" className={styles.img} />
         </div>
       </div>
       <div className={styles.skills}>

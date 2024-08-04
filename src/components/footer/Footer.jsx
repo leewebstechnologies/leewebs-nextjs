@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./footer.module.css";
+import linkedin from "../../images/8.png";
 
 const Footer = () => {
   return (
@@ -36,6 +37,13 @@ const Footer = () => {
         />
         <Image
           src="/7.png"
+          width={15}
+          height={15}
+          className={styles.icon}
+          alt="Leewebs youtube account"
+        />
+        <Image
+          src={linkedin}
           width={15}
           height={15}
           className={styles.icon}
