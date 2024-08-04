@@ -12,17 +12,17 @@ const links = [
   },
   {
     id: 2,
+    title: "About",
+    url: "/about",
+  },
+  {
+    id: 3,
     title: "Portfolio",
     url: "/portfolio",
   },
   {
-    id: 3,
-    title: "Blog",
-    url: "/blog",
-  },
-  {
     id: 4,
-    title: "About",
+    title: "Blog",
     url: "/about",
   },
   {

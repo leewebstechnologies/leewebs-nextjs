@@ -72,5 +72,10 @@
 }
 
 .image:hover {
-  box-shadow: 0 0 2px #fef4f5;
+  box-shadow: 0 0 2px green;
+}
+
+.skill p {
+  font-weight: 500;
+  margin-top: 0.5rem;
 }

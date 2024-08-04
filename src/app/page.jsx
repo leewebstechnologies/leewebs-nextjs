@@ -29,12 +29,30 @@ export default function Home() {
       <div className={styles.skills}>
         <h1 className={styles.heading}>Skills & Experiences</h1>
         <div className={styles.images}>
-          <Image src={html} className={styles.image} alt="skills" />
-          <Image src={css} className={styles.image} alt="skills" />
-          <Image src={javascript} className={styles.image} alt="skills" />
-          <Image src={bootstrap} className={styles.image} alt="skills" />
-          <Image src={react} className={styles.image} alt="skills" />
-          <Image src={sass} className={styles.image} alt="skills" />
+          <div className={styles.skill}>
+            <Image src={html} className={styles.image} alt="skills" />
+            <p>HTML</p>
+          </div>
+          <div className={styles.skill}>
+            <Image src={css} className={styles.image} alt="skills" />
+            <p>CSS</p>
+          </div>
+          <div className={styles.skill}>
+            <Image src={javascript} className={styles.image} alt="skills" />
+            <p>JavaScript</p>
+          </div>
+          <div className={styles.skill}>
+            <Image src={bootstrap} className={styles.image} alt="skills" />
+            <p>Bootstrap</p>
+          </div>
+          <div className={styles.skill}>
+            <Image src={react} className={styles.image} alt="skills" />
+            <p>React Js</p>
+          </div>
+          <div className={styles.skill}>
+            <Image src={sass} className={styles.image} alt="skills" />
+            <p>Sass</p>
+          </div>
         </div>
       </div>
     </>
