@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 const Portfolio = () => {
   return (
     <>
-      <div className={styles.conntainer}>
+      <div className={styles.container}>
         <h1 className={styles.selectTitle}>Choose a gallery</h1>
         <div className={styles.items}>
           <Link href="/portfolio/designs" className={styles.item}>
