@@ -1,18 +1,33 @@
+import Image from "next/image";
 import styles from "./page.module.css";
+import contact from "../../images/contact.png";
+import Button from "@component/components/button/Button";
 
 const Contact = () => {
   return (
     <>
       <div className={styles.container}>
-        <h1>Let's Keep in Touch</h1>
+        <h1 className={styles.title}>Let's Keep in Touch</h1>
         <div className={styles.content}>
           <div className={styles.imgContainer}>
-
+            <Image
+              src={contact}
+              alt="contact"
+              fill={true}
+              className={styles.image}
+            />
           </div>
-          <form action="">
-            
+          <form className={styles.form}>
+            <input type="text" placeholder="Name" className={styles.input} />
+            <input type="text" placeholder="Email" className={styles.input} />
+            <textarea
+              className={styles.textArea}
+              placeholder="Message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <Button url="#" text="Send" />
           </form>
-
         </div>
       </div>
     </>
