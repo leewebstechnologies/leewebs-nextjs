@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import contact from "../../images/contact.png";
+import contact from "../../images/contact_us.png";
 import Button from "@component/components/button/Button";
 
 const Contact = () => {
