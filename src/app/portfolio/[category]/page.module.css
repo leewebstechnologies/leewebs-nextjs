@@ -1,0 +1,45 @@
+/* color: #3044cf; */
+
+.container {
+  padding: 0 60px;
+}
+
+.categoryTitle {
+  color: #3044cf;
+}
+
+.item {
+  display: flex;
+  gap: 50px;
+  margin: 50px 100px 0 0;
+}
+
+.item:nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.imgContainer {
+  flex: 1;
+  height: 500px;
+  position: relative;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.description {
+  font-size: 20px;
+}
