@@ -1,2 +1,24 @@
 .container {
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.content {
+
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  color: #999;
 }
