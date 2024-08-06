@@ -6,12 +6,16 @@
   margin-bottom: 50px;
 }
 
+.container:nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
+
 .image {
   object-fit: cover;
 }
 
 .content {
-
+  
 }
 
 .title {

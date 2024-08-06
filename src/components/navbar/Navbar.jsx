@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./navbar.module.css";
 import Image from "next/image";
 import logo from "../../images/logo.png";
+import DarkModeToggle from "../darkModeToggle/DarkModeToggle";
 
 const links = [
   {
@@ -44,6 +45,7 @@ const Navbar = () => {
         <Image className={styles.logo} src={logo} alt="logo" />
       </Link>
       <div className={styles.links}>
+        <DarkModeToggle />
         {links.map((link) => (
           <Link key={link.id} href={link.url} className={styles.link}>
             {link.title}
