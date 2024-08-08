@@ -3,7 +3,7 @@ import connect from "@component/utils/db";
 import Post from "../../models/Post";
 
 export const GET = async (request) => {
-  // fetch
+  // return new NextResponse("It works!", { status: 200 });
   try {
     await connect();
     const posts = await Post.find();
