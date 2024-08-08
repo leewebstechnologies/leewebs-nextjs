@@ -6,7 +6,7 @@
   margin-bottom: 50px;
 }
 
-.container:nth-child(2n + 1) {
+.container:nth-child(2n) {
   flex-direction: row-reverse;
 }
 
@@ -14,9 +14,7 @@
   object-fit: cover;
 }
 
-.content {
-  
-}
+
 
 .title {
   margin-bottom: 10px;
