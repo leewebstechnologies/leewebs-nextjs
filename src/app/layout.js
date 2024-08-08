@@ -2,7 +2,7 @@ import { Inter, Roboto, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@component/components/navbar/Navbar";
 import Footer from "@component/components/footer/Footer";
-import { ThemeProvider } from "../../context/ThemeContext";
+import { ThemeProvider } from "./context/ThemeContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
