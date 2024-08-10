@@ -6,6 +6,10 @@
   margin-bottom: 50px;
 }
 
+.mainContainer {
+  padding: 0 60px;
+}
+
 .container:nth-child(2n) {
   flex-direction: row-reverse;
 }
@@ -13,8 +17,6 @@
 .image {
   object-fit: cover;
 }
-
-
 
 .title {
   margin-bottom: 10px;
