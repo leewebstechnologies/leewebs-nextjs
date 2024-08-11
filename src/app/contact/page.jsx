@@ -3,6 +3,12 @@ import styles from "./page.module.css";
 import contact from "../../images/contact_us.png";
 import Button from "@component/components/button/Button";
 
+export const metadata = {
+  title:
+    "Leewebs Contact Information | Leading Web Development Agency in Nigeria",
+  description: "This is Contact Page",
+};
+
 const Contact = () => {
   return (
     <>
